@@ -20,5 +20,5 @@
     "types": ["jest"]
   },
   "include": ["src"],
-  "exclude": ["src/Hooks1.*", "node_modules"]
+  "exclude": ["node_modules"]
 }
