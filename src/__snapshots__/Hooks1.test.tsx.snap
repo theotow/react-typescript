@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hooks 1`] = `
+<Hooks1>
+  <div>
+    <p>
+      You clicked 
+      1
+       times
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Click me
+    </button>
+  </div>
+</Hooks1>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`two plus two is four 1`] = `
+<styled.header>
+  <h1>
+    header
+  </h1>
+  <Hooks1 />
+  <LoadableComponent
+    name="button name"
+  />
+</styled.header>
+`;
