@@ -41,7 +41,7 @@ export default function Sidebar(props: {
     <FixedWrap>
       <SidebarWrap>
         <h2>Edit</h2>
-        <a href="" onClick={props.onClose}>
+        <a href="#" onClick={props.onClose}>
           Close
         </a>
       </SidebarWrap>

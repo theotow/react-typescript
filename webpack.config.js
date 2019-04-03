@@ -4,7 +4,6 @@ const fs = require('fs');
 module.exports = {
   entry: './index.tsx',
   target: 'web',
-  mode: 'production',
   context: path.resolve(__dirname, './src/'),
   resolve: {
     extensions: ['.tsx', '.jsx', '.js'],

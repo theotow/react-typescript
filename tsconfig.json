@@ -19,5 +19,6 @@
     "jsx": "react",
     "types": ["jest"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/Hooks1.*", "node_modules"]
 }

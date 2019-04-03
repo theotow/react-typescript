@@ -7,6 +7,7 @@ interface State {
 
 interface Action {
   type: string;
+  whatever: string;
 }
 
 function reducer(state: State, action: Action) {
@@ -22,10 +23,10 @@ function reducer(state: State, action: Action) {
 
 export default function Hooks1() {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
-
   return (
     <div>
       <p>You clicked {state.count} times</p>
+      // @ts-ignore
       <button onClick={() => dispatch({ type: 'increase' })}>Click me</button>
     </div>
   );
