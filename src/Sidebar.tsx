@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SidebarContent from './SidebarContent';
 
 const SidebarWrap = styled.div`
   height: 100%;
@@ -44,6 +45,7 @@ export default function Sidebar(props: {
         <a href="#" onClick={props.onClose}>
           Close
         </a>
+        <SidebarContent />
       </SidebarWrap>
       <Overlay />
     </FixedWrap>

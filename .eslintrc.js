@@ -14,5 +14,9 @@ module.exports = {
     browser: true,
     jest: true
   },
-  rules: {}
+  rules: {
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-console": 0,
+    "no-unused-vars": 0
+  }
 };
